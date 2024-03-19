@@ -1,0 +1,84 @@
+.profile_section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.change_section {
+    background-color: white;
+    padding: 2rem;
+    max-height: 21rem;
+}
+
+.change_section h2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    font-style: Semi Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-bottom: 1rem;
+}
+
+.input_field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input_field label {
+    color: rgba(0, 0, 0, 1);
+    font-size: 11px;
+    font-style: Light;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-bottom: 5px;
+}
+
+.input_field input {
+    padding: 9px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--text-color);
+}
+
+.change_section form button {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-style: Semi Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    background-color: var(--dark-bg-color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+
+/* ********************** RESPONSIVE ************************************************************* */
+@media screen and (max-width: 900px) {
+    .profile_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .profile_section {
+        padding: 4% 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile_section {
+        padding: 4% 4%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}

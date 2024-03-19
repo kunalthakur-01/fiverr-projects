@@ -1,0 +1,3536 @@
+.artlab-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -7rem;
+    position: absolute;
+    z-index: -5;
+  }
+  .artlab-artlab {
+    width: 100%;
+    height: 779px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text {
+    top: 129px;
+    left: 110px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-download {
+    top: 120px;
+    left: 1395px;
+    width: 33px;
+    height: 36px;
+    position: absolute;
+  }
+  .artlab-download1 {
+    top: 120px;
+    left: 1352px;
+    width: 33px;
+    height: 36px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(89, 111, 255, 1);
+  }
+  .artlab-frame {
+    top: 7px;
+    left: 3px;
+    width: 27px;
+    height: 22px;
+    position: absolute;
+  }
+  .artlab-frame31 {
+    top: 167px;
+    left: 0px;
+    width: 290px;
+    height: 612px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(84, 84, 84, 1);
+    border-style: solid;
+    border-width: 0.25px;
+    border-radius: 5px;
+    background-color: rgba(240, 241, 245, 1);
+  }
+  .artlab-vector {
+    top: 17px;
+    left: 21px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+  }
+  .artlab-vector01 {
+    top: 26px;
+    left: 102px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+  }
+  .artlab-vector02 {
+    top: 37px;
+    left: 102px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+  }
+  .artlab-vector03 {
+    top: 37px;
+    left: 92px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+  }
+  .artlab-frame1 {
+    top: 26px;
+    left: 92px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+  }
+  .artlab-frame33 {
+    top: 143px;
+    left: 87px;
+    width: 17px;
+    height: 15px;
+    position: absolute;
+  }
+  .artlab-frame34 {
+    top: 248px;
+    left: 86px;
+    width: 17px;
+    height: 15px;
+    position: absolute;
+  }
+  .artlab-frame2 {
+    top: 139px;
+    left: 100px;
+    width: 12px;
+    height: 23px;
+    position: absolute;
+  }
+  .artlab-frame3 {
+    top: 244px;
+    left: 99px;
+    width: 12px;
+    height: 23px;
+    position: absolute;
+  }
+  .artlab-ellipse3 {
+    top: 200px;
+    left: 97px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-polygon1 {
+    top: 192px;
+    left: 86px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .artlab-frame35 {
+    top: 301px;
+    left: 87px;
+    width: 22px;
+    height: 11px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(154, 154, 154, 1);
+  }
+  .artlab-vector04 {
+    top: 307.6875px;
+    left: 100px;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-vector05 {
+    top: 350px;
+    left: 83px;
+    width: 26px;
+    height: 23px;
+    position: absolute;
+  }
+  .artlab-vector06 {
+    top: 86px;
+    left: 86px;
+    width: 26px;
+    height: 23px;
+    position: absolute;
+  }
+  .artlab-vector07 {
+    top: 409px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector08 {
+    top: 356px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector09 {
+    top: 304px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector10 {
+    top: 251px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector11 {
+    top: 199px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector12 {
+    top: 147px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector13 {
+    top: 95px;
+    left: 73px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector14 {
+    top: 30px;
+    left: 243px;
+    width: 5px;
+    height: 9px;
+    position: absolute;
+  }
+  .artlab-vector15 {
+    top: 404.375px;
+    left: 86px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+  }
+  .artlab-text002 {
+    top: 88px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text004 {
+    top: 26px;
+    left: 127px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text006 {
+    top: 142px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text008 {
+    top: 193px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text010 {
+    top: 247px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text012 {
+    top: 300px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text014 {
+    top: 351px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text016 {
+    top: 403px;
+    left: 126px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-side-select {
+    top: 15px;
+    left: 0px;
+    width: 3px;
+    height: 34px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-frame32 {
+    top: 230px;
+    left: 0px;
+    width: 61px;
+    height: 547px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(236, 236, 241, 1);
+  }
+  .artlab-text018 {
+    top: 488px;
+    left: 877px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text020 {
+    top: 483px;
+    left: 400px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text022 {
+    top: 621px;
+    left: 705px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text024 {
+    top: 620px;
+    left: 413px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text026 {
+    top: 621px;
+    left: 1116px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text028 {
+    top: 439px;
+    left: 621px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame38 {
+    top: 168px;
+    left: 291px;
+    width: 1149px;
+    height: 48px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(154, 154, 154, 1);
+  }
+  .artlab-text030 {
+    top: 17px;
+    left: 42px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame37 {
+    top: 14px;
+    left: 19px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+  }
+  .artlab-inline-rectangle {
+    top: 244px;
+    left: 800px;
+    width: 286px;
+    height: 239px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-d-a-l-l-e2022101318491 {
+    top: -7px;
+    left: 26px;
+    width: 260px;
+    height: 248px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-ellipse4 {
+    top: 15px;
+    left: 17px;
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project261 {
+    top: 15px;
+    left: 16px;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text032 {
+    top: 25px;
+    left: 50px;
+    color: rgba(255, 255, 255, 1);
+    width: 109px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text033 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text034 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-text036 {
+    top: 45px;
+    left: 7px;
+    color: rgba(255, 255, 255, 1);
+    width: 165px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-line8 {
+    top: 144px;
+    left: 0px;
+    width: 76px;
+    height: 0px;
+    position: absolute;
+  }
+  .artlab-text041 {
+    top: 151px;
+    left: 24px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame39 {
+    top: 190px;
+    left: 18px;
+    width: 97px;
+    height: 26px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text046 {
+    top: 5px;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-small-square {
+    top: 244px;
+    left: 595px;
+    width: 189px;
+    height: 191px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-d-a-l-l-e20221013184911 {
+    top: -5px;
+    left: 9px;
+    width: 179px;
+    height: 197px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-ellipse41 {
+    top: 3px;
+    left: 16px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project2611 {
+    top: 3px;
+    left: 16px;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text048 {
+    top: 9px;
+    left: 38px;
+    color: rgba(255, 255, 255, 1);
+    width: 70px;
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text049 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text050 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-text052 {
+    top: 29px;
+    left: 11px;
+    color: rgba(255, 255, 255, 1);
+    width: 107px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-line81 {
+    top: 86px;
+    left: 0px;
+    width: 49px;
+    height: 0px;
+    position: absolute;
+  }
+  .artlab-text057 {
+    top: 108px;
+    left: 17px;
+    color: rgba(255, 255, 255, 1);
+    width: 74px;
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame391 {
+    top: 144px;
+    left: 17px;
+    width: 63px;
+    height: 16px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text062 {
+    top: 3px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-square {
+    top: 244px;
+    left: 325px;
+    width: 235px;
+    height: 234px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-small-square1 {
+    top: -2px;
+    left: 0px;
+    width: 234px;
+    height: 236px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-d-a-l-l-e20221013184912 {
+    top: 1px;
+    left: -7px;
+    width: 240px;
+    height: 236px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-ellipse42 {
+    top: 3px;
+    left: 16px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project2612 {
+    top: 3px;
+    left: 16px;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text064 {
+    top: 9px;
+    left: 38px;
+    color: rgba(255, 255, 255, 1);
+    width: 70px;
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text065 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text066 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-text068 {
+    top: 41px;
+    left: 3px;
+    color: rgba(255, 255, 255, 1);
+    width: 107px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-line82 {
+    top: 108px;
+    left: 0px;
+    width: 49px;
+    height: 0px;
+    position: absolute;
+  }
+  .artlab-text073 {
+    top: 129px;
+    left: 16px;
+    color: rgba(255, 255, 255, 1);
+    width: 74px;
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame392 {
+    top: 191px;
+    left: 17px;
+    width: 79px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text078 {
+    top: 3px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-mobile-leaderboard {
+    top: 567px;
+    left: 636px;
+    width: 297px;
+    height: 46px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-ellipse43 {
+    top: 12px;
+    left: 11px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project2613 {
+    top: 12px;
+    left: 11px;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text080 {
+    top: 18px;
+    left: 33px;
+    color: rgba(255, 255, 255, 1);
+    width: 70px;
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text081 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text082 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-frame393 {
+    top: 8px;
+    left: 211px;
+    width: 79px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text084 {
+    top: 3px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text086 {
+    top: 569px;
+    left: 727px;
+    color: rgba(255, 255, 255, 1);
+    width: 107px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-large-mobile {
+    top: 519px;
+    left: 325px;
+    width: 298px;
+    height: 94px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-d-a-l-l-e20221013184913 {
+    top: 0px;
+    left: 163px;
+    width: 133px;
+    height: 97px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-ellipse44 {
+    top: 14px;
+    left: 138px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project2614 {
+    top: 14px;
+    left: 138px;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text091 {
+    top: 20px;
+    left: 160px;
+    color: rgba(255, 255, 255, 1);
+    width: 70px;
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text092 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text093 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-text095 {
+    top: 48px;
+    left: 9px;
+    color: rgba(255, 255, 255, 1);
+    width: 105px;
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame394 {
+    top: 47px;
+    left: 144px;
+    width: 79px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text100 {
+    top: 3px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text102 {
+    top: 7px;
+    left: -7px;
+    color: rgba(255, 255, 255, 1);
+    width: 107px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-main-banner {
+    top: 557px;
+    left: 956px;
+    width: 437px;
+    height: 56px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-text107 {
+    top: 6px;
+    left: 112px;
+    color: rgba(255, 255, 255, 1);
+    width: 193px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text109 {
+    top: 28px;
+    left: 129px;
+    color: rgba(255, 255, 255, 1);
+    width: 171px;
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-main-banner1 {
+    top: 0px;
+    left: 0px;
+    width: 437px;
+    height: 56px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-frame395 {
+    top: 13px;
+    left: 333px;
+    width: 79px;
+    height: 20px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text111 {
+    top: 3px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    width: 61px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-ellipse45 {
+    top: 13px;
+    left: 15px;
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project2615 {
+    top: 13px;
+    left: 15px;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text113 {
+    top: 19px;
+    left: 37px;
+    color: rgba(255, 255, 255, 1);
+    width: 70px;
+    height: auto;
+    position: absolute;
+    font-size: 8px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text114 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text115 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-frame40 {
+    top: 486px;
+    left: 851px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star1 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-frame43 {
+    top: 481px;
+    left: 372px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star11 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-frame44 {
+    top: 619px;
+    left: 687px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star12 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-frame45 {
+    top: 618px;
+    left: 392px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star13 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-frame46 {
+    top: 619px;
+    left: 1093px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star14 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-frame42 {
+    top: 437px;
+    left: 596px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star15 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-new-project271 {
+    top: 118px;
+    left: 21px;
+    width: 20px;
+    height: 29px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text117 {
+    top: 143px;
+    left: 14px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: K2D;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame4 {
+    top: 132px;
+    left: 81px;
+    width: 11px;
+    height: 13px;
+    position: absolute;
+  }
+  .artlab-text119 {
+    top: 513px;
+    left: 1192px;
+    color: rgba(84, 84, 84, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-large-rectangle {
+    top: 244px;
+    left: 1102px;
+    width: 318px;
+    height: 262px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-d-a-l-l-e20221013184914 {
+    top: -4px;
+    left: 40px;
+    width: 281px;
+    height: 267px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-ellipse46 {
+    top: 15px;
+    left: 25px;
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-new-project2616 {
+    top: 15px;
+    left: 24px;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-text121 {
+    top: 25px;
+    left: 58px;
+    color: rgba(255, 255, 255, 1);
+    width: 109px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text122 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .artlab-text123 {
+    color: rgba(254, 165, 1, 1);
+  }
+  .artlab-text125 {
+    top: 55px;
+    left: 17px;
+    color: rgba(255, 255, 255, 1);
+    width: 165px;
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-line83 {
+    top: 143px;
+    left: 0px;
+    width: 76px;
+    height: 0px;
+    position: absolute;
+  }
+  .artlab-text130 {
+    top: 156px;
+    left: 26px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame396 {
+    top: 205px;
+    left: 34px;
+    width: 97px;
+    height: 26px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(240, 208, 64, 1);
+  }
+  .artlab-text135 {
+    top: 5px;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 13px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame41 {
+    top: 511px;
+    left: 1168px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(84, 84, 84, 1);
+  }
+  .artlab-star16 {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  .artlab-component1 {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 118px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+  }
+  .artlab-nav {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .artlab-form {
+    top: 11px;
+    left: 66.66667175292969px;
+    width: 769px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    border-radius: 24px;
+    background-color: rgba(238, 238, 238, 1);
+  }
+  .artlab-svg {
+    top: 10px;
+    left: 0.9523810148239136px;
+    width: 32px;
+    height: 20px;
+    position: absolute;
+  }
+  .artlab-div {
+    top: 1px;
+    left: 33.333335876464844px;
+    width: 689px;
+    height: 38px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-text137 {
+    top: 10.5px;
+    left: 9.523808479309082px;
+    color: rgba(118, 118, 118, 1);
+    width: 674px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-divpopovervisualsearchformnav {
+    top: 0px;
+    left: 669.5237426757812px;
+    width: 14px;
+    height: 15px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-frame5 {
+    top: 12px;
+    left: 766px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-vector16 {
+    top: 11px;
+    left: 736.333984375px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+  }
+  .artlab-ul {
+    top: 0px;
+    left: 846.062255859375px;
+    width: 261px;
+    height: 62px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-text139 {
+    top: 23px;
+    left: 28.8996524810791px;
+    color: rgba(118, 118, 118, 1);
+    width: 51px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text141 {
+    top: 23px;
+    left: 108.9375px;
+    color: rgba(118, 118, 118, 1);
+    width: 45px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-div01 {
+    top: 15px;
+    left: 1106.666748046875px;
+    width: 1px;
+    height: 32px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-div02 {
+    top: 15px;
+    left: 1127.6190185546875px;
+    width: 131px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-text143 {
+    top: 5px;
+    left: -13px;
+    color: rgba(118, 118, 118, 1);
+    width: 79px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text145 {
+    top: 7px;
+    left: 59.19643020629883px;
+    color: rgba(118, 118, 118, 1);
+    width: 4px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: 24px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text146 {
+    top: 5px;
+    left: 75.328125px;
+    color: rgba(118, 118, 118, 1);
+    width: 48px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-divpopoversecondarymenudesktop {
+    top: 18.484375px;
+    left: 1390.47607421875px;
+    width: 30px;
+    height: 25.03125px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-button {
+    top: 1.03125px;
+    left: 0px;
+    width: 30px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-svg1 {
+    top: 0px;
+    left: 3.809523820877075px;
+    width: 23px;
+    height: 24px;
+    position: absolute;
+  }
+  .artlab-penrose-black1 {
+    top: -4px;
+    left: 0px;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-group {
+    top: 17.9873046875px;
+    left: 15.537109375px;
+    width: 36.92599105834961px;
+    height: 32.05042266845703px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .artlab-vector17 {
+    top: 0.06166912242770195px;
+    left: 6.384046287166711e-7px;
+    width: 28px;
+    height: 32px;
+    position: absolute;
+  }
+  .artlab-vector18 {
+    top: 9.270784378051758px;
+    left: 2.775522470474243px;
+    width: 34px;
+    height: 23px;
+    position: absolute;
+  }
+  .artlab-vector19 {
+    top: -0.000001014288727674284px;
+    left: 10.93135929107666px;
+    width: 26px;
+    height: 27px;
+    position: absolute;
+  }
+  .artlab-div03 {
+    top: 62px;
+    left: 0px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .artlab-div04 {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.07999999821186066) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-div05 {
+    top: 0px;
+    left: -3.809523820877075px;
+    width: 1425px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  
+  .image1 {
+    width: 56px;
+    height: 15.6px;
+    position: absolute;
+    left: 175px;
+    top: 26px;
+  }
+  
+  .artlab-text148 {
+    top: 18px;
+    left: 82.80859375px;
+    color: rgba(255, 255, 255, 1);
+    width: 80px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-div06 {
+    top: 12px;
+    left: 171.89881134033203px;
+    width: 1px;
+    height: 32px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .artlab-div07 {
+    top: 0px;
+    left: 117.70833587646484px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-div08 {
+    top: 0px;
+    left: 66px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-ul1 {
+    top: 0px;
+    left: -22.85714340209961px;
+    width: 1897px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-div09 {
+    top: 17px;
+    left: 22.85714340209961px;
+    width: 78px;
+    height: 22px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .artlab-text150 {
+    top: -11px;
+    left: 6.099609375px;
+    color: rgba(118, 118, 118, 1);
+    width: 45px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 400;
+    line-height: 16px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text152 {
+    top: 3px;
+    left: 6.099609375px;
+    color: rgba(118, 118, 118, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text154 {
+    top: 20px;
+    left: 134.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 98px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text156 {
+    top: 20px;
+    left: 253.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 73px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text158 {
+    top: 20px;
+    left: 347.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 76px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text160 {
+    top: 20px;
+    left: 446.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 130px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text162 {
+    top: 20px;
+    left: 593.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 88px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text164 {
+    top: 20px;
+    left: 699.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 83px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text166 {
+    top: 20px;
+    left: 799.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 46px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text168 {
+    top: 20px;
+    left: 865.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 108px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text170 {
+    top: 20px;
+    left: 996.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 51px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text172 {
+    top: 20px;
+    left: 1071.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 28px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text174 {
+    top: 20px;
+    left: 1122.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 118px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-text176 {
+    top: 20px;
+    left: 1260.95703125px;
+    color: rgba(118, 118, 118, 1);
+    width: 46px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 22.399999618530273px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .artlab-frame6 {
+    top: 17px;
+    left: 1306.95703125px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+  }
+  .artlab-divafter {
+    top: 0px;
+    left: 1116.577392578125px;
+    width: 190px;
+    height: 56px;
+    position: absolute;
+    border-color: transparent;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgba(118, 118, 118, 1);
+  }
+  
+  .item-component1 {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 118px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-color: transparent;
+    }
+    .item-nav {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 62px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+      background-color: rgba(0, 0, 0, 1);
+    }
+  
+    .item-form {
+      top: 11px;
+      left: 66.66667175292969px;
+      width: 769px;
+      height: 40px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+      border-radius: 24px;
+      background-color: rgb(255, 255, 255);
+    }
+  
+    .item-svg2 {
+      top: 11px;
+      left: 22.9523810148239136px;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+    }
+  
+  .item-div07 {
+    top: 1px;
+    left: 33.333335876464844px;
+    width: 689px;
+    height: 38px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  
+  }
+  
+  .item-text073 {
+      top: 10.5px;
+      left: 9.523808479309082px;
+      color: rgba(118, 118, 118, 1);
+      width: 674px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 400;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .text-body {
+      position: absolute;
+      width: 100%;
+      outline: none;
+      border: none;
+      left: 12px;
+    }
+  
+    .item-svg3 {
+      top: 0px;
+      left: 3.809523820877075px;
+      width: 23px;
+      height: 24px;
+      position: absolute;
+      cursor: pointer;
+    }
+  
+    .item-vector1 {
+      top: -3px;
+      left: 723.333984375px;
+      width: 53px;
+      height: 20;
+      position: absolute;
+    }
+  
+    .item-ul {
+      top: 0px;
+      left: 846.062255859375px;
+      width: 261px;
+      height: 62px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-text075 {
+      top: 23px;
+      left: 28.8996524810791px;
+      color: rgba(118, 118, 118, 1);
+      width: 51px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-text077 {
+      top: 23px;
+      left: 108.9375px;
+      color: rgba(118, 118, 118, 1);
+      width: 45px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .image2 {
+      width: 56px;
+      height: auto;
+      vertical-align: top;
+      -o-object-fit: contain;
+      object-fit: contain;
+      -o-object-position: center top;
+      object-position: center top;
+      position: absolute;
+      top: 27px;
+      left: 175px;
+      min-width: 56px;
+    }
+  
+    .item-div08 {
+      top: 15px;
+      left: 1106.666748046875px;
+      width: 1px;
+      height: 32px;
+      position: absolute;
+      border-color: transparent;
+    }
+  
+    .item-div09 {
+      top: 10px;
+      left: 1127.6190185546875px;
+      width: 131px;
+      height: 32px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-text079 {
+      top: 8px;
+      left: 2px;
+      color: rgba(118, 118, 118, 1);
+      width: 79px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: center;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 30px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-text081 {
+      top: 10px;
+      left: 72.19643020629883px;
+      color: rgba(118, 118, 118, 1);
+      width: 4px;
+      height: auto;
+      position: absolute;
+      font-size: 15px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 400;
+      line-height: 24px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-text082 {
+      top: 8px;
+      left: 85.328125px;
+      color: rgba(118, 118, 118, 1);
+      width: 48px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: center;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 30px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-divpopoversecondarymenudesktop {
+      top: 18.484375px;
+      left: 1390.47607421875px;
+      width: 30px;
+      height: 25.03125px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-penrose-black1 {
+      top: -4px;
+      left: 0px;
+      width: 68px;
+      height: 68px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-group {
+      top: 17.9873046875px;
+      left: 15.537109375px;
+      width: 36.92599105834961px;
+      height: 32.05042266845703px;
+      display: flex;
+      padding: 0;
+      position: absolute;
+      align-self: auto;
+      box-sizing: border-box;
+      align-items: flex-start;
+      flex-shrink: 1;
+      border-color: transparent;
+      border-style: none;
+      border-width: 0;
+      margin-right: 0;
+      border-radius: 0px 0px 0px 0px;
+      margin-bottom: 0;
+      flex-direction: row;
+      justify-content: flex-start;
+      background-color: transparent;
+    }
+  
+    .item-vector2 {
+      top: 0.06166912242770195px;
+      left: 6.384046287166711e-7px;
+      width: 28px;
+      height: 32px;
+      position: absolute;
+    }
+    .item-vector3 {
+      top: 9.270784378051758px;
+      left: 2.775522470474243px;
+      width: 34px;
+      height: 23px;
+      position: absolute;
+    }
+    .item-vector4 {
+      top: -0.000001014288727674284px;
+      left: 10.93135929107666px;
+      width: 26px;
+      height: 27px;
+      position: absolute;
+    }
+  
+     .item-text084 {
+      top: 16px;
+      left: 79.80859375px;
+      color: rgba(255, 255, 255, 1);
+      width: 80px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-div10 {
+      top: 62px;
+      left: 0px;
+      width: 100%;
+      height: 56px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+      background-color: rgba(0, 0, 0, 1);
+    }
+    .item-div11 {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 56px;
+      display: flex;
+      position: absolute;
+      box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.07999999821186066) ;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-div12 {
+      top: 0px;
+      left: -3.809523820877075px;
+      width: 100%;
+      height: 56px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-div13 {
+      top: 12px;
+      left: 173.89881134033203px;
+      width: 1px;
+      height: 32px;
+      position: absolute;
+      border-color: transparent;
+    }
+    .item-div14 {
+      top: 0px;
+      left: 117.70833587646484px;
+      width: 92%;
+      height: 56px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .item-div15 {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 56px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-ul1 {
+      top: 0px;
+      left: 50.85714340209961px;
+      width: 100%;
+      height: 56px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+  
+    .item-div16 {
+      top: 17px;
+      left: 22.85714340209961px;
+      width: 78px;
+      height: 22px;
+      display: flex;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .item-text086 {
+      top: -11px;
+      left: 6.099609375px;
+      color: rgba(118, 118, 118, 1);
+      width: 45px;
+      height: auto;
+      position: absolute;
+      font-size: 10px;
+      align-self: auto;
+      font-style: Regular;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 400;
+      line-height: 16px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text088 {
+      top: 3px;
+      left: 6.099609375px;
+      color: rgba(118, 118, 118, 1);
+      width: 85px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-text090 {
+      top: 20px;
+      left: 134.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 98px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text092 {
+      top: 20px;
+      left: 253.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 73px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text094 {
+      top: 20px;
+      left: 347.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 76px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text096 {
+      top: 20px;
+      left: 446.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 130px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text098 {
+      top: 20px;
+      left: 593.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 88px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text100 {
+      top: 20px;
+      left: 699.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 83px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text102 {
+      top: 20px;
+      left: 799.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 46px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text104 {
+      top: 20px;
+      left: 865.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 108px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text106 {
+      top: 20px;
+      left: 996.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 51px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text108 {
+      top: 20px;
+      left: 1071.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 28px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .item-text110 {
+      top: 20px;
+      left: 1122.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 118px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-text112 {
+      top: 20px;
+      left: 1260.95703125px;
+      color: rgba(118, 118, 118, 1);
+      width: 46px;
+      height: auto;
+      position: absolute;
+      font-size: 14px;
+      align-self: auto;
+      font-style: Medium;
+      text-align: left;
+      font-family: Ubuntu;
+      font-weight: 500;
+      line-height: 22.399999618530273px;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+  
+    .item-frame1 {
+      top: 22px;
+      left: 1305.95703125px;
+      width: 14px;
+      height: 18px;
+      position: absolute;
+    }
+  
+    .hamburger-menu-container {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      min-height: 100vh;
+      align-items: center;
+      flex-direction: column;
+    }
+    .hamburger-menu-hamburger-menu {
+      position: absolute;
+      left: 297px;
+      top: 55px;
+      width: 52%;
+      height: 0px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-width: 1px;
+      background-color: rgba(0, 0, 0, 1);
+      overflow: hidden;
+      transition: height 0.5s;
+    }
+  
+    .hamburger-menu-hamburger-menu.open-menu {
+      height: 443PX;
+    }
+  
+    .hamburger-menu-hamburger-menu.close-menu {
+      height: 0px;
+    }
+  
+    .hamburger-menu-vector {
+      top: 6px;
+      left: 735px;
+      width: 15px;
+      height: 8px;
+      position: absolute;
+    }
+    .hamburger-menu-text {
+      top: 11px;
+      left: 26px;
+      color: rgba(66, 75, 87, 1);
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      align-self: auto;
+      font-style: Light;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 300;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-text02 {
+      top: 59px;
+      left: 31px;
+      color: rgba(255, 255, 255, 1);
+      width: 151px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-text23 {
+      top: 59px;
+      left: 542px;
+      color: rgba(255, 255, 255, 1);
+      width: 209px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-text44 {
+      top: 13px;
+      left: 542px;
+      color: rgba(66, 75, 87, 1);
+      width: 77px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      align-self: auto;
+      font-style: Light;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 300;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-text46 {
+      top: 59px;
+      left: 266px;
+      color: rgba(255, 255, 255, 1);
+      width: 151px;
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-text67 {
+      top: 11px;
+      left: 266px;
+      color: rgba(66, 75, 87, 1);
+      height: auto;
+      position: absolute;
+      font-size: 16px;
+      align-self: auto;
+      font-style: Light;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 300;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-line17 {
+      top: 372px;
+      left: 0px;
+      width: 776px;
+      height: 0px;
+      position: absolute;
+    }
+    .hamburger-menu-terms-conditions {
+      top: 380px;
+      left: 0px;
+      width: 166px;
+      height: 63px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .hamburger-menu-frame118 {
+      top: 13px;
+      left: 16px;
+      width: 130px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-color: transparent;
+      flex-direction: column;
+    }
+    .hamburger-menu-text69 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 13px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 16px;
+      text-decoration: none;
+    }
+    .hamburger-menu-line11 {
+      width: 130px;
+      height: 0px;
+      position: relative;
+    }
+    .hamburger-menu-privacy-policy {
+      top: 376px;
+      left: 183px;
+      width: 125px;
+      height: 67px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .hamburger-menu-frame117 {
+      top: 17px;
+      left: 15px;
+      width: 94px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-color: transparent;
+      flex-direction: column;
+    }
+    .hamburger-menu-text71 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 13px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 16px;
+      text-decoration: none;
+      width: 100px;
+      position: absolute;
+    }
+    .hamburger-menu-line12 {
+      width: 94px;
+      height: 0px;
+      position: relative;
+    }
+    .hamburger-menu-licensingagreement {
+      top: 373px;
+      left: 325px;
+      width: 172px;
+      height: 70px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .hamburger-menu-frame116 {
+      top: 20px;
+      left: 10px;
+      width: 148px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-color: transparent;
+      flex-direction: column;
+    }
+    .hamburger-menu-text73 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 13px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 15px;
+      text-decoration: none;
+    }
+    .hamburger-menu-line13 {
+      width: 148px;
+      height: 0px;
+      position: relative;
+    }
+    .hamburger-menu-subprocessors {
+      top: 371px;
+      left: 506px;
+      width: 137px;
+      height: 72px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .hamburger-menu-frame115 {
+      top: 22px;
+      left: 12px;
+      width: 110px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-color: transparent;
+      flex-direction: column;
+    }
+    .hamburger-menu-text75 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 13px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 15px;
+      text-decoration: none;
+    }
+    .hamburger-menu-line14 {
+      width: 110px;
+      height: 0px;
+      position: relative;
+    }
+    .hamburger-menu-subprocessors1 {
+      top: 371px;
+      left: 624px;
+      width: 150px;
+      height: 72px;
+      display: flex;
+      overflow: hidden;
+      position: absolute;
+      align-items: flex-start;
+      flex-shrink: 0;
+      border-color: transparent;
+    }
+    .hamburger-menu-frame1151 {
+      top: 22px;
+      left: 52px;
+      width: 47px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-color: transparent;
+      flex-direction: column;
+    }
+    .hamburger-menu-text77 {
+      color: rgba(255, 255, 255, 1);
+      height: auto;
+      font-size: 13px;
+      align-self: auto;
+      font-style: Bold;
+      text-align: left;
+      font-family: Inter;
+      font-weight: 700;
+      line-height: normal;
+      font-stretch: normal;
+      margin-right: 0;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    .hamburger-menu-vector1 {
+      top: 25px;
+      left: 31px;
+      width: 19px;
+      height: 10px;
+      position: absolute;
+    }
+    .hamburger-menu-frame {
+      top: 26px;
+      left: 117px;
+      width: 5px;
+      height: 8px;
+      position: absolute;
+    }
+    .hamburger-menu-vector2 {
+      top: 331px;
+      left: 655px;
+      width: 21px;
+      height: 18px;
+      position: absolute;
+    }
+    .hamburger-menu-vector3 {
+      top: 332px;
+      left: 690px;
+      width: 20px;
+      height: 15px;
+      position: absolute;
+    }
+    .hamburger-menu-vector4 {
+      top: 332px;
+      left: 724px;
+      width: 17px;
+      height: 17px;
+      position: absolute;
+    }
+    
+  

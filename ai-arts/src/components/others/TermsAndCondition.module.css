@@ -1,0 +1,66 @@
+.TermsAndCondition_section {
+    width: 60%;
+    margin: 1rem auto 2rem auto;
+    background-color: white;
+    padding: 2rem 20px;
+}
+
+.TermsAndCondition_section h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    font-style: Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 94.52272653579712%;
+    padding: 0 1.5rem;
+}
+
+.TermsAndCondition_section p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-style: Bold;
+    font-family: Inter;
+    line-height: normal;
+}
+
+.line {
+    background-color: black;
+    height: 2px;
+    margin: 2.5rem 0;
+}
+
+.TermsAndCondition_section h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-style: Bold;
+    font-family: Inter;
+    margin: 2rem 0;
+}
+
+.TermsAndCondition_section p span {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-style: Bold;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+
+/* ********************** RESPONSIVE ************************************************************* */
+@media screen and (max-width: 1100px) {
+    .TermsAndCondition_section {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .TermsAndCondition_section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .TermsAndCondition_section h1 {
+        font-size: 28px;
+    }
+}

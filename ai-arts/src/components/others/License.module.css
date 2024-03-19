@@ -1,0 +1,71 @@
+.license_section {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2.5rem 0;
+}
+
+.license_section h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    font-style: Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 94.52272653579712%;
+    padding: 0 1.5rem;
+}
+
+.line {
+    background-color: black;
+    height: 2px;
+    margin: 2.5rem 0;
+}
+
+.license_section ul, p {
+    padding: 0 1.5rem;
+}
+
+.license_section ul li {
+    list-style: circle;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-style: Regular;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.conditions {
+    margin-top: 1.4rem;
+    padding: 0 1.5rem;
+}
+
+.conditions div {
+    margin: 25px 0;
+}
+
+.conditions div h2 {
+    color: black;
+    font-size: 16px;
+    font-style: Regular;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-bottom: 1rem;
+}
+
+
+
+/* ********************** RESPONSIVE ************************************************************* */
+@media screen and (max-width: 1100px) {
+    .license_section {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .license_section {
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+.privacy_policy {
+    width: 70%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.privacy_policy h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    font-style: Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 94.52272653579712%;
+    font-stretch: normal;
+}
+
+.privacy_policy p {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-style: Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+}
+
+.line {
+    height: 1px;
+    background-color: black;
+    margin: 3rem 0;
+}

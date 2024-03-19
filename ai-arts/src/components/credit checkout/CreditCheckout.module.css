@@ -1,0 +1,245 @@
+.authentication_page {
+    max-width: 55rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.auth_section h4 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 500;
+}
+
+.auth_section h4 a {
+    color: rgba(0, 0, 0, 0.747);
+    /* text-decoration: none; */
+}
+
+.logo {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.auth_section {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem 0;
+}
+
+.heading {
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    font-size: 17px;
+}
+
+.signInWithGoogleBtn {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: rgba(16, 16, 16, 1);
+    cursor: pointer;
+    margin: 2.5rem auto;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+}
+
+.google_btn {
+    background-color: #fff;
+    color: rgba(16, 16, 16, 1);
+    font-size: 19px;
+    margin-right: 10px;
+    border-radius: 50%;
+    /* padding: 5px; */
+}
+
+.or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.or span:nth-child(1), .or span:nth-child(3){
+    flex-basis: 45%;
+    height: 2px;
+    background-color: var(--dark-bg-color);
+}
+
+.or span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.721);
+}
+
+.heading2 {
+    padding: 1rem 2rem 5px 2rem;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+}
+
+.para {
+    padding: 0 2rem;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    color: rgba(84, 84, 84, 1);
+}
+
+
+
+/* signup form***********************************************************************************/
+.authentication_page form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.input_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_field label {
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 6px;
+}
+
+.input_field input {
+    padding: 12px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.input_field input::placeholder {
+    font-size: 17px;
+}
+
+.signup_form .input_field:nth-child(1) {
+   grid-column: 1 /span 2;
+}
+
+.signup_form .input_field:nth-child(2) {
+    grid-column: 1 /span 1;
+}
+
+.authentication_page form button {
+    grid-column: 1 /span 2;   
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-style: Semi Bold;
+    font-family: Inter;
+    font-weight: 700;
+    font-stretch: normal;
+    cursor: pointer;
+    background-color: var(--blue-color);
+    border: none;
+    padding: 25px 0;
+    border-radius: 6px;
+}
+
+
+
+.links {
+    padding: 1rem 2rem;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    color: rgba(84, 84, 84, 1);
+}
+
+.links a {
+    text-decoration: underline;
+}
+
+.footer {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 94.52272653579712%;
+    font-stretch: normal;
+    color: rgba(0, 0, 0, 1);
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.footer button {
+    background-color: var(--dark-bg-color);
+    color: rgba(255, 255, 255, 1);
+    font-size: 11px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 94.52272653579712%;
+    font-stretch: normal;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.checkout_price {
+    background-color: rgba(229, 231, 235, 1);
+    width: 90%;
+    padding: 25px 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 2rem auto;
+
+}
+
+.checkout_logo {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout_logo img {
+    width: 22px;
+}
+
+.checkout_price h2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-style: Regular;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+}
+
+/* ********************** RESPONSIVE ************************************************************* */
+@media screen and (max-width: 600px) {
+    .signup_form .input_field:nth-child(1), .signup_form .input_field:nth-child(4), .signup_form .input_field:nth-child(2), .signup_form .input_field:nth-child(3){
+        grid-column: 1 /span 2;
+     }
+}

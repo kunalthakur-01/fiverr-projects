@@ -1,0 +1,18 @@
+.favorites_section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    align-items: center;
+}
+
+.favorites_section h1 {
+    color: rgba(84, 84, 84, 1);
+    font-size: 24px;
+    font-style: Semi Bold;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+}

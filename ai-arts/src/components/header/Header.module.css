@@ -1,0 +1,273 @@
+.main_header {
+    width: 100%;
+    /* height: 50vh; */
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 100;
+}
+
+.search_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5% 5px 3%;
+}
+
+/* .logo {
+    top: -4px;
+    left: 0px;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+} */
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* search bar********************************************************************************************/
+
+.searchbar {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 20px;
+    /* padding-right: 7rem; */
+    max-width: 45rem;
+    /* display: grid;
+    max-width: 100rem;
+    max-height: 5rem;
+    grid-template-columns: 10% 1fr 10%; */
+}
+
+.search {
+    width: 16px;
+    height: 16px;
+}
+
+.scanner {
+    width: 50px;
+    margin-right: -20px;
+}
+.searchbar input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 5px 15px;
+    width: 38vw;
+}
+
+/* nav links*******************************************************************************/
+.links {
+    /* flex: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+    /* padding-right: 13rem; */
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid var(--text-color);
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-stretch: normal;
+    margin: 0  15px;
+}
+
+.nav_links a img {
+    width: 56px;
+    margin-top: 5px;
+}
+
+.authentication_links {
+    /* margin-right: 10rem; */
+    margin-left: 18px;
+    margin-top: -5px;
+}
+
+.authentication_links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-stretch: normal;
+    margin: 0 8px;
+}
+
+.authentication_links span {
+    color: var(--text-color);
+    font-size: 20px;
+
+}
+
+.logout_btn button {
+    background-color: transparent;
+    color: var(--text-color);
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-stretch: normal;
+    margin: 0 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+/*hamburger menu ***************************************************************/
+.menubar {
+    position: relative;
+}
+
+.menubar button{
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger_menu {
+    color: var(--text-color);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+/* categories header*******************************************************************************/
+
+.categories_header {
+    width: 100%;
+    background-color: var(--bg-dark-color);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 5px 3%;
+}
+
+.categories_header span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-style: Medium;
+    font-family: Ubuntu;
+    font-weight: 500;
+    border-right: 2px solid var(--text-color);
+    padding: 13px 10px 13px 0;
+}
+
+.categories_header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    /* margin-left: 10px; */
+}
+
+.categories_header ul li {
+    list-style: none;
+    white-space: nowrap;
+    /* background-color: red; */
+}
+
+.categories_header ul li a{
+    /* width: fit-content; */
+    /* min-width: 5rem; */
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 15px 13px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-stretch: normal;
+    display: block;
+    position: relative;
+    transition: 0.3s ease-in;
+}
+
+.categories_header ul li a:hover {
+    color: white;
+}
+
+.categories_header ul li a:hover::after {
+    content: '';
+    width: 100%;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+
+.categories_header p {
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+    color: rgba(118, 118, 118, 1);
+    font-size: 11px;
+    font-style: Regular;
+    font-family: Ubuntu;
+    font-weight: 500;
+    line-height: 16px;
+
+}
+
+.categories_header ul::-webkit-scrollbar {
+    height: 3px;
+}
+
+.categories_header ul::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.categcategories_headerories ul::-webkit-scrollbar-corner {
+    display: none;
+}
+
+
+
+/* ********************** RESPONSIVE ************************************************************* */
+@media screen and (max-width: 1000px) {
+    .searchbar {
+        flex: 1;
+        margin: 0 1rem;
+        padding: 0 10px;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .categories_header ul li a{
+        margin: 15px 10px;
+    }
+
+    .searchbar input {
+        padding: 5px 0px;
+    }
+}
