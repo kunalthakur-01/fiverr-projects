@@ -1,0 +1,62 @@
+.products-list-section {
+  flex-basis: 81%;
+  /* background-color: black; */
+}
+
+.products-visibility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.visibility-types {
+  display: flex;
+}
+
+.visibility-types button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  background-color: var(--light-bg-color1);
+  cursor: pointer;
+}
+
+.active-layout {
+  background-color: black !important;
+  color: white;
+}
+
+.products-visibility p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.products-visibility select {
+  padding: 3px 10px;
+}
+
+.products-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-height: 85%;
+  overflow: auto;
+}
+
+.products-list::-webkit-scrollbar {
+  width: 4px;
+}
+.products-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.133);
+  border-radius: 10px;
+  /* display: none; */
+}
+.products-list::-webkit-scrollbar-corner {
+  display: none;
+}

@@ -1,0 +1,62 @@
+.leftside-design {
+    position: fixed;
+    top: 3.75rem;
+    left: 1rem;
+    display: flex;
+    z-index: 100;
+}
+
+.leftside-design aside:nth-child(1), .leftside-design aside:nth-child(2), .leftside-design aside:nth-child(3){
+    width: 6px;
+    background-color: var(--bg-color1);
+    border-bottom-right-radius: 10px;
+    margin-right: 15px;
+}
+
+.leftside-design aside:nth-child(1){
+    height: 10rem;
+}
+
+.leftside-design aside:nth-child(2){
+    height: 7rem;
+}
+
+.leftside-design aside:nth-child(3){
+    height: 4rem;
+}
+
+.rightside-design {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    display: flex;
+    z-index: 100;
+}
+
+.rightside-design aside:nth-child(1), .rightside-design aside:nth-child(2), .rightside-design aside:nth-child(3){
+    width: 6px;
+    background-color: var(--bg-color1);
+    border-top-left-radius: 10px;
+    margin-left: 15px;
+    /* position: relative;
+    bottom: 0;
+    right: 2rem; */
+}
+
+.rightside-design aside:nth-child(3){
+    height: 10rem;
+}
+
+.rightside-design aside:nth-child(2){
+    height: 7rem;
+    bottom: 0;
+    position: absolute;
+    right: 1.4rem;
+}
+
+.rightside-design aside:nth-child(1){
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    right: 2.7rem;
+}

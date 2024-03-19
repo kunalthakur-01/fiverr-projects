@@ -1,0 +1,13 @@
+.btn {
+    padding: 7px 10px;
+    border: none;
+    background: var(--bg-gradient-color1);
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background: linear-gradient(30deg, rgb(0, 98, 255) 75%, black 20%);
+}

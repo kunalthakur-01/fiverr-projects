@@ -1,0 +1,34 @@
+.trustedCompanies-section{
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+.trustedCompanies-section h2 {
+    text-align: center;
+    /* font-weight: 400; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 4rem;
+}
+
+.companies {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 10%;
+    background-color: var( --light-bg-color1);
+}
+
+.company {
+    width: 6rem;
+    height: 6rem;
+}
+
+.company img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ihone x",
+        "price": 23000,
+        "category": "phone",
+        "madeIn": "china",
+        "model": 2020,
+        "images": []
+    },
+    {
+        "name": "rolex",
+        "price": 2300,
+        "category": "watch",
+        "madeIn": "india",
+        "model": 2022,
+        "images": []
+    },
+    {
+        "name": "dell inspiron 3505",
+        "price": 49000,
+        "category": "laptop",
+        "madeIn": "china",
+        "model": 2021,
+        "images": []
+    },
+    {
+        "name": "shirt",
+        "price": 550,
+        "category": "garment",
+        "madeIn": "india",
+        "model": 2020,
+        "images": []
+    }
+]

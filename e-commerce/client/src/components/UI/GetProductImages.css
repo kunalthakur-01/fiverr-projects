@@ -1,0 +1,55 @@
+.form-images-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.form-images-input label {
+    /* opacity: 0.9; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+.form-images-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem 0;
+}
+
+.form-image-placeholder {
+    width: 5.5rem;
+    height: 5rem;
+    background-color: rgb(237, 237, 255);
+    cursor: pointer;
+    transition: transform 0.4s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.form-image-placeholder:hover {
+    transform: scale(1.2);
+    border: 1px solid black;
+}
+
+.form-image-placeholder p {
+    /* font-size: 13px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clickBeforeMain {
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+    color: red;
+    font-family: cursive;
+    font-size: 13px;
+}
