@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <title>Bankist App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logins">
+            <h3 id="topHeading">Login to get started</h3>
+            <img src="images/logo.png" id="icon">
+            <div class="inputs">
+                <form action="/aaa" id="loginForm" autocomplete="off">
+                    <input type="text" placeholder="User" name="user" id="user" required>
+                    <input type="text" placeholder="PIN" name="pin" id="pin" required>
+                    <button type="submit" id="loggedIn">➡️</button>
+                </form>
+            </div>
+        </div>
+        <div id="data">
+            <div class="col-1">
+                <div class="c1r1">
+                    <h3>Current balance</h3>
+                    <p>As of <span id="date">26/02/2022, </span><span id="time">01:45</span></p>
+                </div>
+                <div class="c1r2">
+                    <ul id="parent">
+                        <li>
+                            <span class ="deposites type--deposite">10 DEPOSITE</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">132,700</span></h4>
+                        </li>
+                        <li>
+                            <span class ="deposites type--deposite">9 DEPOSITE</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">132,700</span></h4>
+                        </li>
+                        <!-- <li>
+                            <span class ="deposites type--deposite">8 DEPOSITE</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">200,000</span></h4>
+                        </li>
+                        <li>
+                            <span class ="deposites type--withdrawal">7 WITHDRAWAL</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">- 50,000</span></h4>
+                        </li>
+                        <li>
+                            <span class ="deposites type--withdrawal">6 WITHDRAWAL</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">- 199,500</span></h4>
+                        </li>
+                        <li>
+                            <span id="deposites">5 DEPOSITE</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">2,000,000</span></h4>
+                        </li>
+                        <li>
+                            <span id="deposites">4 WITHDRAWAL</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">- 200,500</span></h4>
+                        </li>
+                        <li>
+                            <span id="deposites">3 DEPOSITE</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">500,000</span></h4>
+                        </li>
+                        <li>
+                            <span id="deposites">2 WITHDRAWAL</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">- 50,000</span></h4>
+                        </li>
+                        <li>
+                            <span id="deposites">1 DEPOSITE</span>
+                            <p>12/01/2022</p>
+                            <h4>&#8377 <span id="rate">100,000</span></h4>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="c1r3">
+                    <p>IN <span>&#8377<span id="in">3,065,400</span></span></p>
+                    <p>OUT <span>&#8377<span id="out">- 500,000</span></span></p>
+                    <p>interest <span>&#8377<span id="interest"> 27,880</span></span></p>
+                    <p id="sort">&downarrow; SORT</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="c2r1">
+                    <h1>&#8377 <span id="totalAmount">0000</span></h1>
+                </div>
+                <div class="c2r2">
+                    <div class="transfer">
+                        <form action="/" id="forms" class="transferForm" autocomplete="off">
+                            <h4>Transfer money</h4>
+                            <div class="banking">
+                                <input type="text" name="transferTo" id="transferTo" required>
+                                <input type="number" name="ammount" id="ammount" required>
+                                <button type="submit"><ion-icon name="arrow-forward" id="arrow"></ion-icon></button>
+                            </div>
+                        </form>
+                        <h5 class="first">Transfer to</h5>
+                        <h5 class="second">Amount</h5>
+                    </div>
+                    <div class="requestLoan">
+                        <form action="/" id="forms" class="requestForm" autocomplete="off">
+                            <h4>Request Loan</h4>
+                            <div class="banking">
+                                <input type="number" name="requestLoan" id="requestLoan" required>
+                                <button type="submit"><ion-icon name="arrow-forward" id="arrow"></ion-icon></button>
+                            </div>
+                        </form>
+                        <h5 class="second">Amount</h5>
+                    </div>
+                    <div class="closeAccount">
+                        <form action="/" id="forms" class="closeForm" autocomplete="off">
+                            <h4>Close account</h4>
+                            <div class="banking">
+                                <input type="text" name="confirmUser" id="confirmUser" required>
+                                <input type="number" name="confirmPin" id="confirmPin" required>
+                                <button type="submit"><ion-icon name="arrow-forward" id="arrow"></ion-icon></button>
+                            </div>
+                        </form>
+                        <h5 class="first">Confirm User</h5>
+                        <h5 class="second">Confirm Pin</h5>
+                    </div>
+                </div>
+                <div class="c2r3">
+                    <p>You will be logged out in <span id="loggedOut">05:00</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

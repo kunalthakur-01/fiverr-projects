@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Serif:wght@200&family=Roboto+Slab:wght@100;200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(217, 223, 235, 0.753);
+    position: relative;
+}
+.logins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+}
+.logins h3{
+    font-size: 2rem;
+}
+#icon{
+    width: 60px;
+}
+.inputs input{
+    width: 100px;
+    text-align: center;
+    /* outline: none; */
+    border: none;
+    border-radius: 70px;
+    padding: 5px 20px;
+    margin-left: 5px;
+}
+.inputs input::placeholder{
+    font-weight: 550;
+    color: #222;
+}
+.inputs button{
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+#data{
+    width: 60%;
+    height: 50%;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transition: all 1s;
+}
+.col-1{
+    flex-basis: 55%;
+}
+.c1r1 h3{
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.c1r1 p{
+    font-size: 14px;
+}
+.col-2{
+    flex-basis: 43%;
+}
+.c1r2{
+    width: 100%;
+    height: 25rem;
+    margin-top: 2rem;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: scroll;
+}
+.c1r2 ul{
+    padding-top: 10px;
+}
+.c1r2 ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 4%;
+    border-bottom: 1px solid rgb(189, 187, 187);
+}
+.c1r2 ul li .deposites{
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 30px;
+}
+.type--deposite{
+    background: linear-gradient(to top left, #39b385, #9be15d);
+}
+.c1r2 ul li p{
+    flex: 1;
+    padding-left: 15px;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+}
+.c1r2 ul li h4{
+    font-weight: 900;
+    font-size: 18px;
+}
+.c1r2 ul li:last-child{
+    border-bottom: none;
+}
+.type--withdrawal{
+    background: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.c1r3{
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c1r3 p{
+    font-weight: 700;
+    font-size: 12px;
+}
+.c1r3 p span{
+    color: green;
+    font-size: 25px;
+    padding-left: 5px;
+}
+.c1r3 p:nth-child(2) span{
+    color: red;
+}
+.c1r2::-webkit-scrollbar{
+    width: 4px;
+}
+.c1r2::-webkit-scrollbar-thumb{
+    background-color: gray;
+    /* display: none; */
+}
+.c1r2::-webkit-scrollbar-corner{
+    display: none;
+}
+#sort{
+    cursor: pointer;
+}
+
+                             /* column 2 */
+        
+.c2r1{
+    text-align: right;
+}
+.c2r1 h1{
+    font-size: 38px;
+}
+.c2r2{
+    width: 100%;
+    height: 25rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.transfer, .requestLoan, .closeAccount{
+    width: 100%;
+    flex-basis: 31%;
+    border-radius: 10px;
+    position: relative;
+}
+.transfer{
+    background: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+.second{
+    position: absolute;
+    right: 9.9rem;
+    bottom: 1.2rem;
+}
+.first{
+    position: absolute;
+    left: 3.2rem;
+    bottom: 1.2rem;
+}
+.requestLoan h5{
+    left: 3.7rem;
+}
+.closeAccount .first{
+    left: 3rem;
+}
+.closeAccount .second{
+    right: 9rem;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 20px 30px;
+}
+#forms h4{
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.banking input{
+    width: 7rem;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    font-weight: 600;
+}
+.banking button{
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 4px;
+    cursor: pointer;
+}
+#arrow{
+    font-size: 15px;
+}
+.requestLoan{
+    background: linear-gradient(to top left, #39b385, #9be15d);
+}
+.closeAccount{
+    background: linear-gradient(to top left, #e52a5a, #ff585f);
+}
+.c2r3{
+    margin-top: 2.3rem;
+    text-align: right;
+}
+#loggedOut{
+    font-weight: 700;
+}
+
+@media screen and (max-width:450px) {
+    .logins h3{
+        font-size: 4.5vw;
+    }
+    #icon{
+        width: 9vw;
+    }
+    .inputs input{
+        width: 16vw;
+        padding: 5px 10px;
+        margin-left: 1px;
+    }
+    .logins{
+        display: flex;
+        padding: 4% 0;
+    }
+    .inputs button{
+        font-size: 15px;
+    }
+    #data{
+        width: 97%;
+        height: 50%;
+        margin: 1.5rem 5px;
+    }
+    .c1r1 h3{
+        font-weight: 900;
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+    .c1r1 p{
+        font-size: 3.5vw;
+    }
+    .c1r2{
+        width: 100%;
+        height: 24rem;
+        margin-top: 2rem;
+        background-color: #eee;
+        border-radius: 5px;
+        overflow: scroll;
+    }
+    .c1r2 ul li .deposites{
+        font-size: 2vw;
+        color: white;
+        font-weight: 700;
+        padding: 3px 5px;
+        border-radius: 30px;
+    }
+    .c1r2 ul li p{
+        flex: 1;
+        padding-left: 15px;
+        font-size: 3vw;
+        color: black;
+        font-weight: 600;
+    }
+    .c1r2 ul li h4{
+        font-weight: 900;
+        font-size: 4vw;
+    }
+    .c1r3 p{
+        font-size: 4vw;
+        margin-top: 5px;
+    }
+    .c1r3 p span{
+        color: green;
+        font-size: 4vw;
+        padding-left: 5px;
+    }
+    .c2r1 h1{
+        font-size: 8vw;
+    }
+    .c2r2{
+        width: 100%;
+        height: 24rem;
+    }
+    #forms h4{
+        font-size: 3.4vw;
+        margin-bottom: 15px;
+        font-weight: bolder;
+    }
+    .banking input{
+        width: 12vw;
+        padding: 4px 5px;
+        margin-right: 5px;
+    }
+    .banking button{
+        width: 5vw;
+        padding-top: 4px;
+    }
+    #forms{
+        padding: 20px 10px;
+    }
+    .second{
+        right: 12vw;
+        bottom: 4.5vw;
+        font-size:2.7vw;
+    }
+    .first{
+        left: 3vw;
+        bottom: 4.5vw;
+        font-size:2.7vw;
+    }
+    #arrow{
+        font-size: 13px;
+    }
+    .requestLoan h5{
+        bottom: 4.5vw;
+        left: 3vw;
+    }
+    .closeAccount .first{
+        left: 3vw;
+        font-size: 2.1vw;
+    }
+    .closeAccount .second{
+        right: 12vw;
+        font-size: 2.1vw;
+    }
+    .c1r3{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .c2r3 p{
+        font-size: 4vw;
+    }
+       
+}
